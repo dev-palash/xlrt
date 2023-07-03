@@ -1,0 +1,59 @@
+/* Hide the default file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Style the label to resemble a button or custom element */
+#fileInputLabel {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  background-color: #e0e0e0;
+  color: #000;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+/* Optional: Add hover and active states for interactivity */
+#fileInputLabel:hover {
+  background-color: #ccc;
+}
+
+#fileInputLabel:active {
+  background-color: #aaa;
+}
+
+.upload_image {
+  height: 3rem;
+  width: 3rem;
+}
+
+.upload_button {
+  margin-top: 2rem;
+}
+
+.upload_container {
+  border: 0.07rem dashed #bdbdbd;
+  padding: 1.4rem;
+  text-align: center;
+  width: 22rem;
+  margin: 3rem auto;
+  border-radius: 0.5rem;
+}
+.drag_txt{
+  margin: 0;
+  font-weight: 600;
+  color: #bdbdbd;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+
+}
+
+/* .upload_button button {
+  height: 2rem;
+  width: max-content;
+  background-color: rgb(255, 60, 0);
+  color: aliceblue;
+  border: none;
+
+} */
